@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ClassMetotDemo
 {
@@ -8,24 +6,38 @@ namespace ClassMetotDemo
     {
         public void Ekle(Musteri musteriler)
         {
-            Console.WriteLine("Müşteri Eklendi, Tekrikler  :  " + musteriler.Id + " : " + musteriler.AdiSoyadi + " : " + musteriler.TcKimlik + " : " + musteriler.Iletisim + " : " + musteriler.Bakiye);
+            Console.WriteLine("Müşteri Eklendi, Tekrikler  :  "
+                + musteriler.Id +
+                " : "
+                + musteriler.AdiSoyadi + " : " + musteriler.TcKimlik +
+                " : "
+                + musteriler.Iletisim + " : " + musteriler.KrediRiskDurumu);
 
         }
 
-        
+
         public void Sil(Musteri musteriler)
         {
 
-            Console.WriteLine("Müşteriler Silindi ! :  " + musteriler.Id + " : " + musteriler.AdiSoyadi + " : " + musteriler.TcKimlik + " : " + musteriler.Iletisim + " : " + musteriler.Bakiye);
+            Console.WriteLine("Müşteriler Silindi ! :  "
+               + musteriler.Id +
+                " : "
+                + musteriler.AdiSoyadi + " : " + musteriler.TcKimlik +
+                " : "
+                + musteriler.Iletisim + " : " + musteriler.KrediRiskDurumu);
 
         }
 
         public void Liste(Musteri musteriler)
 
         {
+            Console.WriteLine("Müşteriler Listelendi ! :  "
+                 + musteriler.Id +
+                  " : "
+                  + musteriler.AdiSoyadi + " : " + musteriler.TcKimlik +
+                  " : "
+                  + musteriler.Iletisim + " : " + musteriler.KrediRiskDurumu);
 
-            Console.WriteLine(musteriler.Id + " : " + musteriler.AdiSoyadi + " : " + musteriler.TcKimlik + " : " + musteriler.Iletisim + " : " + musteriler.Bakiye);
-            
         }
 
 
@@ -33,5 +45,5 @@ namespace ClassMetotDemo
 
 }
 
-    
+
 

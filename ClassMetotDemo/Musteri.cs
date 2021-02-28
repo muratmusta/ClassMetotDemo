@@ -10,7 +10,7 @@ namespace ClassMetotDemo
         public string  AdiSoyadi {get; set;}
         public string TcKimlik { get; set; }
         public string Iletisim { get; set; }
-        public double Bakiye { get; set; }
+        public bool KrediRiskDurumu { get; set; }
 
 
 
